@@ -104,3 +104,4 @@ type PersonKeys = keyof Person; // 'name' | 'age'
 https://dev.to/m_midas/30-frontend-interview-questions-typescript-12c2
 https://www.geeksforgeeks.org/typescript/typescript-interview-questions/
 https://docs.google.com/document/d/1gslw6aljemv-NWMkdBkjxdIPYbB3kiijbNHfDd9fiQA/edit?usp=sharing
+..............
