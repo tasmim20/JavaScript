@@ -32,6 +32,29 @@ REST API stores a copy of a server response in a particular location of computer
 # 1. What is REST?
 
 REST stands for Representational State Transfer.
+REST is a set of rules to design web services so that clients (like apps or browsers) can communicate with the server using HTTP.
+1.Stateless: Server doesn’t remember anything. Each request has all the info it needs.
+2.Resources: Everything is treated as a resource with a URL.
+
+Example: /books = all books, /books/1 = book with ID 1
+3.HTTP Methods: Standard actions:
+GET → read data
+POST → create data
+PUT → Update data (replace)
+PATCH → Update part of data
+DELETE → delete data
+4.Consistent URLs: Predictable and clean URLs for each resource.
+5.Client-Server Separation: Frontend handles UI, backend handles data.
+
+Imagine a library app:
+/books → list all books
+/books/1 → get details of one book
+POST /books → add a new book
+PUT /books/1 → update a book
+DELETE /books/1 → remove a book
+
+RESTful API:
+A RESTful API is an API that follows REST principles. It allows the client to interact with resources (data) using standard HTTP methods.
 
 # 2. What is a REST API?
 

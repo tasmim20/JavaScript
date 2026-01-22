@@ -39,3 +39,15 @@ Vertical scaling: Increase server power (CPU, RAM).
 Horizontal scaling: Add more servers and distribute traffic.
 👉 Horizontal scaling is better for large, scalable systems.
 “In small systems, vertical scaling is enough, but for production systems I prefer horizontal scaling by adding more servers and load balancing.”
+
+3️⃣ How do you improve API performance?
+
+Make APIs faster and more efficient by reducing server load and response time.
+
+Techniques:
+1.Caching: Store frequently requested data in memory (Redis)
+2.Pagination & limiting: Return data in chunks instead of all at once
+3.Optimize database queries: Avoid N+1 queries, use indexes
+4.Compression: Enable gzip for API responses
+5.Rate limiting & throttling: Protect server from overload
+Example:Caching the homepage product list so the DB isn’t hit every request.
