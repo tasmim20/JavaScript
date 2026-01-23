@@ -123,6 +123,11 @@ a. Destructuring
 b. Spread & Rest operator
 c. Default parameters
 d. Modules: import & export
+Map vs Set
+Optional chaining ?.
+Nullish coalescing ??
+Template literals
+Arrow functions nuances (this binding)
 
 # 12. Promises – The Pizza Delivery Story 🍕-- pending, resolved, rejected
 
@@ -208,3 +213,25 @@ getUser = null; // now 'user' can be garbage collected
 
 
 $$
+
+**JS Engine / Runtime Understanding**
+Call Stack → where JS executes functions (LIFO)
+Heap → memory for objects, arrays, functions
+Microtasks → Promise .then() queue, higher priority
+Macrotasks → setTimeout, setInterval, I/O
+
+**Shallow vs Deep Copy**
+Shallow copy: copies only top-level references
+Deep copy: copies everything recursively
+Use case: State updates in React
+
+**5️ Event delegation vs normal event listeners**
+Normal listener: add listener to each element individually
+Event delegation: add listener to parent and use event.target to detect child
+
+**var, let, const in closures**
+var → function scoped, can create unexpected behavior in loops
+let/const → block scoped, safer in closures
+
+**Browser → updating DOM, handling user events**
+**Node.js → building backend APIs, reading/writing files**

@@ -58,7 +58,25 @@ A RESTful API is an API that follows REST principles. It allows the client to in
 
 # 2. What is a REST API?
 
+A standard way for client and server to communicate.
 An API is an application programming interface, which is a software-to-software interface that allows otherwise separate applications to interact and share data. In a REST API, all data is treated as resources, each one represented by a unique uniform resource identifier (URI).
+REST stands for Representational State Transfer.
+
+It’s an architecture style for building web services that allow communication between client (like a browser or mobile app) and server.
+
+Uses standard HTTP methods:
+
+GET → retrieve data
+
+POST → create data
+
+PUT / PATCH → update data
+
+DELETE → delete data
+
+Data is usually sent in JSON format.
+
+Example: A mobile app requests a user profile from a server using a REST API.
 
 # 3. What do you mean by RESTful web services?
 
@@ -134,3 +152,15 @@ e.Status codes
 **
 link: https://www.simplilearn.com/rest-api-interview-questions-answers-article
 **
+
+API Security Best Practices
+1.Use POST Requests:
+2.Always Use HTTPS:
+3.Use Authorization Headers:
+4.Authenticate users using JWT or API keys in Authorization headers — never expose sensitive credentials in URLs.
+5.Encrypt Sensitive Data:
+Encrypt sensitive data like passwords, payment details, and location info before sending it in API requests.
+6.Validate User Input:
+Always validate and sanitize input to prevent attacks like SQL injection or XSS.
+7.Limit API Requests:
+Use rate limiting to prevent abuse (e.g., limiting requests to 100 per minute).

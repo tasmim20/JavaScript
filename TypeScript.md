@@ -105,3 +105,85 @@ https://dev.to/m_midas/30-frontend-interview-questions-typescript-12c2
 https://www.geeksforgeeks.org/typescript/typescript-interview-questions/
 https://docs.google.com/document/d/1gslw6aljemv-NWMkdBkjxdIPYbB3kiijbNHfDd9fiQA/edit?usp=sharing
 ..............
+
+TypeScript Quick Interview Sheet (20 Qs)
+
+1️⃣ What is TypeScript?
+
+A typed superset of JavaScript that adds static types and compiles to JS.
+
+2️⃣ Difference between JS & TS?
+
+JS → dynamic typing; TS → static typing with compile-time checks.
+
+3️⃣ What are types in TS?
+
+string, number, boolean, any, unknown, void, never, enum, tuple.
+
+4️⃣ any vs unknown?
+
+any disables type checking; unknown is safer, must check type before using.
+
+5️⃣ What is type inference?
+
+TS automatically detects the type if not explicitly declared.
+
+6️⃣ interface vs type?
+
+Interface → objects, extendable; Type → objects, unions, primitives, tuples.
+
+7️⃣ What is a class?
+
+Blueprint to create objects with properties and methods.
+
+8️⃣ Access modifiers?
+
+public → everywhere; private → inside class; protected → class + subclasses.
+
+9️⃣ What are generics?
+
+Functions or classes that work with any type safely.
+
+10️⃣ What are enums?
+
+Named constants in TypeScript.
+
+11️⃣ What are tuples?
+
+Fixed-length arrays with specific types.
+
+12️⃣ Union & Intersection types?
+
+Union (|) → one of multiple types; Intersection (&) → combine multiple types.
+
+13️⃣ readonly vs const?
+
+const → variable cannot be reassigned; readonly → object property cannot be reassigned.
+
+14️⃣ What is never?
+
+Type for values that never occur (e.g., functions that always throw errors).
+
+15️⃣ What is type assertion?
+
+Tell TS to treat a variable as a certain type.
+
+16️⃣ What is unknown type?
+
+Safer than any; requires type check before use.
+
+17️⃣ What are decorators?
+
+Functions that add metadata to classes, methods, or properties (used in NestJS).
+
+18️⃣ Interface vs Abstract class?
+
+Interface → only structure; Abstract class → structure + implementation + access modifiers.
+
+19️⃣ Optional & default parameters?
+
+Optional ? → may be omitted; Default → assigned if not provided.
+
+20️⃣ Why use TypeScript?
+
+Improves code quality, readability, maintainability, and catches errors at compile-time.
