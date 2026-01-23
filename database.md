@@ -22,3 +22,9 @@ ACID ensures database transactions are safe and reliable.
 2.Consistency: The database stays correct after a transaction. (Example: total balance stays correct.)
 3.Isolation: Transactions don’t mess with each other. (Example: two people updating same account won’t cause errors.)
 4.Durability: Once done, it’s permanent, even if the server crashes. (Example: money transferred is saved.)
+
+What are ORM & ODM?
+🧠 Easy meaning
+
+ORM (Object Relational Mapper) → used with SQL databases--A tool to interact with SQL databases using objects instead of SQL.---Prisma
+ODM (Object Document Mapper) → used with NoSQL databases--A tool to interact with NoSQL databases using schemas and documents.-- mongoose
